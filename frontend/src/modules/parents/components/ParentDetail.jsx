@@ -351,8 +351,8 @@ export default function ParentDetail() {
 
   useEffect(() => {
     fetchParentDetails(id)
-    fetchEmails(id).then(setEmails)
-    fetchJourneyEvents(id).then(setJourneyEvents)
+    // fetchEmails(id).then(setEmails)
+    // fetchJourneyEvents(id).then(setJourneyEvents)
   }, [id])
 
   const handleFieldUpdate = async (field, value) => {
